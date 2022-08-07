@@ -1,14 +1,33 @@
 // GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
-import * as React from 'react'
-import QuestionCircleFilledSvg from '@ant-design/icons-svg/lib/asn/QuestionCircleFilled';
-import AntdIcon, { AntdIconProps } from '../components/AntdIcon';
+import * as React from "react";
+// import QuestionCircleFilledSvg from '@ant-design/icons-svg/lib/asn/QuestionCircleFilled';
+import AntdIcon, { AntdIconProps } from "../components/AntdIcon";
+
+const QuestionCircleFilledSvg: any = {
+  icon: {
+    tag: "svg",
+    attrs: { viewBox: "0 0 24 24", focusable: "false" },
+    children: [
+      {
+        tag: "path",
+        attrs: {
+          d: "M12,0 C18.6276,0 24,5.3724 24,12 C24,18.6276 18.6276,24 12,24 C5.3724,24 0,18.6276 0,12 C0,5.3724 5.3724,0 12,0 Z M12.6,16.8 L11.4,16.8 L11.4,18 L12.6,18 L12.6,16.8 Z M12.1400458,6 C10.9537757,6 10.0311213,6.36734694 9.37208238,7.10204082 C8.71304348,7.80333952 8.4,8.73840445 8.4,9.90723562 L8.4,9.90723562 L9.70160183,9.90723562 C9.70160183,9.0890538 9.88283753,8.45454545 10.2453089,7.98701299 C10.6407323,7.43599258 11.2503432,7.16883117 12.0741419,7.16883117 C12.7661327,7.16883117 13.3098398,7.35250464 13.6887872,7.75324675 C14.0512586,8.12059369 14.2489703,8.63821892 14.2489703,9.30612245 C14.2489703,9.77365492 14.0842105,10.2077922 13.7546911,10.6252319 C13.6558352,10.7588126 13.4581236,10.9591837 13.194508,11.2263451 C12.3048055,12.0278293 11.7610984,12.6623377 11.5304348,13.1632653 C11.3327231,13.580705 11.2338673,14.0649351 11.2338673,14.6159555 L11.2338673,14.6159555 L11.2338673,15 L12.5519451,15 L12.5519451,14.6159555 C12.5519451,14.1651206 12.6508009,13.7643785 12.8649886,13.3970315 C13.0297483,13.096475 13.2768879,12.7959184 13.6393593,12.4786642 C14.3643021,11.8274583 14.8091533,11.393321 14.973913,11.1929499 C15.3858124,10.6419295 15.6,9.99072356 15.6,9.2393321 C15.6,8.23747681 15.2869565,7.45269017 14.6773455,6.88497217 C14.0347826,6.283859 13.194508,6 12.1400458,6 Z",
+        },
+      },
+    ],
+  },
+  name: "questionCircle",
+  theme: "filled",
+};
 
 const QuestionCircleFilled = (
   props: AntdIconProps,
-  ref: React.MutableRefObject<HTMLSpanElement>,
+  ref: React.MutableRefObject<HTMLSpanElement>
 ) => <AntdIcon {...props} ref={ref} icon={QuestionCircleFilledSvg} />;
 
-QuestionCircleFilled.displayName = 'QuestionCircleFilled';
-export default React.forwardRef<HTMLSpanElement, AntdIconProps>(QuestionCircleFilled);
+QuestionCircleFilled.displayName = "QuestionCircleFilled";
+export default React.forwardRef<HTMLSpanElement, AntdIconProps>(
+  QuestionCircleFilled
+);

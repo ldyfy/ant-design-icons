@@ -1,14 +1,31 @@
 // GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
-import * as React from 'react'
-import SendOutlinedSvg from '@ant-design/icons-svg/lib/asn/SendOutlined';
-import AntdIcon, { AntdIconProps } from '../components/AntdIcon';
+import * as React from "react";
+// import SendOutlinedSvg from '@ant-design/icons-svg/lib/asn/SendOutlined';
+import AntdIcon, { AntdIconProps } from "../components/AntdIcon";
+
+const SendOutlinedSvg: any = {
+  icon: {
+    tag: "svg",
+    attrs: { viewBox: "0 0 16 16", focusable: "false" },
+    children: [
+      {
+        tag: "path",
+        attrs: {
+          d: "M14.2126168,0.527974368 C14.2885566,0.669728703 14.328909,0.827159925 14.3310479,0.986797505 L14.325446,1.1067289 L13.0042749,13.4376595 C12.9454382,13.9868013 12.4525744,14.3842721 11.9034326,14.3254355 C11.8208239,14.3165846 11.7398034,14.2974915 11.6622079,14.2687108 L11.548613,14.2183432 L8.29216814,12.5249918 L8.75352088,11.637775 L12.0099657,13.3311264 L13.254,1.716 L6.42810313,11.2730979 L6.42909451,15.6126334 C6.42909451,15.8580933 6.25221935,16.0622418 6.01897014,16.1045778 L5.92909451,16.1126334 C5.68363462,16.1126334 5.47948614,15.9357583 5.43715018,15.7025091 L5.42909451,15.6126334 L5.42909451,10.9524009 L12.046,1.688 L1.00020626,7.60605145 L4.06602088,9.20027505 L3.60466814,10.0874918 L0.538853525,8.49326825 C0.0488572163,8.23847017 -0.14180862,7.63469502 0.112989461,7.14469871 C0.187297588,7.00179847 0.29472877,6.87950414 0.42559371,6.78762486 L0.52798485,6.72457148 L12.8589154,0.11871581 C13.3457434,-0.142084875 13.9518161,0.041146423 14.2126168,0.527974368 Z",
+        },
+      },
+    ],
+  },
+  name: "send",
+  theme: "outlined",
+};
 
 const SendOutlined = (
   props: AntdIconProps,
-  ref: React.MutableRefObject<HTMLSpanElement>,
+  ref: React.MutableRefObject<HTMLSpanElement>
 ) => <AntdIcon {...props} ref={ref} icon={SendOutlinedSvg} />;
 
-SendOutlined.displayName = 'SendOutlined';
+SendOutlined.displayName = "SendOutlined";
 export default React.forwardRef<HTMLSpanElement, AntdIconProps>(SendOutlined);

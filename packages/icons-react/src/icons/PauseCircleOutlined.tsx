@@ -1,14 +1,33 @@
 // GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
-import * as React from 'react'
-import PauseCircleOutlinedSvg from '@ant-design/icons-svg/lib/asn/PauseCircleOutlined';
-import AntdIcon, { AntdIconProps } from '../components/AntdIcon';
+import * as React from "react";
+// import PauseCircleOutlinedSvg from '@ant-design/icons-svg/lib/asn/PauseCircleOutlined';
+import AntdIcon, { AntdIconProps } from "../components/AntdIcon";
+
+const PauseCircleOutlinedSvg: any = {
+  icon: {
+    tag: "svg",
+    attrs: { viewBox: "0 0 16 16", focusable: "false" },
+    children: [
+      {
+        tag: "path",
+        attrs: {
+          d: "M5,4 L5,10 L6,10 L6,4 L5,4 Z M8,4 L8,10 L9,10 L9,4 L8,4 Z M7,0 C8.85651875,0 10.6369953,0.737497807 11.9497499,2.05025244 C13.2625046,3.36300707 14,5.14348459 14,7 C14,8.38446903 13.5894604,9.73784733 12.8202906,10.8889914 C12.0511208,12.0401354 10.9578695,12.9373426 9.67878723,13.4671564 C8.39970398,13.9969702 6.99223804,14.1355934 5.63437128,13.8654966 C4.27650404,13.5953999 3.02922297,12.9287148 2.05025554,11.9497471 C1.07128799,10.9707794 0.404602721,9.7234993 0.134506181,8.36563206 C-0.13559036,7.00776482 0.00303298235,5.60029888 0.532846391,4.32121611 C1.06265974,3.04213333 1.95986724,1.94888258 3.11101127,1.17971277 C4.26215506,0.410542905 5.61553383,0 7,0 Z M7,1 C5.40870428,1 3.88258052,1.63214099 2.75736237,2.75735927 C1.63214409,3.88257742 1,5.40870094 1,7 C1,8.18668747 1.35189688,9.34672642 2.01118541,10.3334217 C2.67047381,11.320117 3.60754609,12.0891514 4.70390272,12.5432768 C5.80025911,12.9974022 7.00665855,13.1162224 8.17054462,12.8847113 C9.33443069,12.6532001 10.4035282,12.0817556 11.2426434,11.2426405 C12.0817585,10.4035254 12.653203,9.33442783 12.8847141,8.17054176 C13.1162252,7.00665569 12.9974051,5.80025578 12.5432796,4.70389938 C12.0891542,3.60754275 11.3201199,2.67047071 10.3334246,2.01118231 C9.34672928,1.3518939 8.18669128,1 7,1 Z",
+        },
+      },
+    ],
+  },
+  name: "pauseCircle",
+  theme: "outlined",
+};
 
 const PauseCircleOutlined = (
   props: AntdIconProps,
-  ref: React.MutableRefObject<HTMLSpanElement>,
+  ref: React.MutableRefObject<HTMLSpanElement>
 ) => <AntdIcon {...props} ref={ref} icon={PauseCircleOutlinedSvg} />;
 
-PauseCircleOutlined.displayName = 'PauseCircleOutlined';
-export default React.forwardRef<HTMLSpanElement, AntdIconProps>(PauseCircleOutlined);
+PauseCircleOutlined.displayName = "PauseCircleOutlined";
+export default React.forwardRef<HTMLSpanElement, AntdIconProps>(
+  PauseCircleOutlined
+);

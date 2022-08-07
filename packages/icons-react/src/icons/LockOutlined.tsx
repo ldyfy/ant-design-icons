@@ -1,14 +1,31 @@
 // GENERATE BY ./scripts/generate.ts
 // DON NOT EDIT IT MANUALLY
 
-import * as React from 'react'
-import LockOutlinedSvg from '@ant-design/icons-svg/lib/asn/LockOutlined';
-import AntdIcon, { AntdIconProps } from '../components/AntdIcon';
+import * as React from "react";
+// import LockOutlinedSvg from '@ant-design/icons-svg/lib/asn/LockOutlined';
+import AntdIcon, { AntdIconProps } from "../components/AntdIcon";
+
+const LockOutlinedSvg: any = {
+  icon: {
+    tag: "svg",
+    attrs: { viewBox: "0 0 16 16", focusable: "false" },
+    children: [
+      {
+        tag: "path",
+        attrs: {
+          d: "M8,0 C11.4078722,0 14.3180583,2.1308477 15.4708807,5.13286547 L17.8840473,5.13398 L15.3840473,7.63398 L12.8840473,5.13398 L14.3880312,5.13341579 C13.2929126,2.69676725 10.8446069,1 8,1 C4.13400675,1 1,4.13400675 1,8 C1,11.8659932 4.13400675,15 8,15 C11.4966131,15 14.3944342,12.4362663 14.9162638,9.08599817 L16,8 C16,12.418278 12.418278,16 8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 Z M8,2.22281929 C9.93299662,2.22281929 11.5,3.78982267 11.5,5.72281929 L11.5,5.72281929 L11.5,6.22281929 L12,6.22281929 C12.2761424,6.22281929 12.5,6.44667692 12.5,6.72281929 L12.5,6.72281929 L12.5,11.7228193 C12.5,11.9989617 12.2761424,12.2228193 12,12.2228193 L12,12.2228193 L4,12.2228193 C3.72385763,12.2228193 3.5,11.9989617 3.5,11.7228193 L3.5,11.7228193 L3.5,6.72281929 C3.5,6.44667692 3.72385763,6.22281929 4,6.22281929 L4,6.22281929 L4.5,6.22281929 L4.5,5.72281929 C4.5,3.78982267 6.06700338,2.22281929 8,2.22281929 Z M11.5,7.22281929 L4.5,7.22281929 L4.5,11.2228193 L11.5,11.2228193 L11.5,7.22281929 Z M8,3.22281929 C6.61928813,3.22281929 5.5,4.34210742 5.5,5.72281929 L5.5,5.72281929 L5.5,6.22281929 L10.5,6.22281929 L10.5,5.72281929 C10.5,4.34210742 9.38071187,3.22281929 8,3.22281929 Z",
+        },
+      },
+    ],
+  },
+  name: "lock",
+  theme: "outlined",
+};
 
 const LockOutlined = (
   props: AntdIconProps,
-  ref: React.MutableRefObject<HTMLSpanElement>,
+  ref: React.MutableRefObject<HTMLSpanElement>
 ) => <AntdIcon {...props} ref={ref} icon={LockOutlinedSvg} />;
 
-LockOutlined.displayName = 'LockOutlined';
+LockOutlined.displayName = "LockOutlined";
 export default React.forwardRef<HTMLSpanElement, AntdIconProps>(LockOutlined);
