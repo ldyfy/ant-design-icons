@@ -8,7 +8,7 @@ import AntdIcon, { AntdIconProps } from "../components/AntdIcon";
 const FilterFilledSvg: any = {
   icon: {
     tag: "svg",
-    attrs: { viewBox: "0 0 16 16", focusable: "false" },
+    attrs: { viewBox: "0 0 14 14", focusable: "false" },
     children: [
       {
         tag: "path",
