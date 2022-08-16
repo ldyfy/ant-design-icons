@@ -18,8 +18,8 @@ const ApiOutlinedSvg: any = {
       },
     ],
   },
-  name: "search",
-  theme: "oulined",
+  name: "api",
+  theme: "outlined",
 };
 
 const ApiOutlined = (
