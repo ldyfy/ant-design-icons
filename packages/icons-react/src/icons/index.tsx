@@ -265,6 +265,8 @@ export { default as EuroOutlined } from "./EuroOutlined";
 export { default as EuroTwoTone } from "./EuroTwoTone";
 export { default as ExceptionOutlined } from "./ExceptionOutlined";
 export { default as ExclamationCircleFilled } from "./ExclamationCircleFilled";
+export { default as ExclamationSmCircleFilled } from "./ExclamationSmCircleFilled";
+export { default as ExclamationLgCircleFilled } from "./ExclamationLgCircleFilled";
 export { default as ExclamationCircleOutlined } from "./ExclamationCircleOutlined";
 export { default as ExclamationCircleTwoTone } from "./ExclamationCircleTwoTone";
 export { default as ExclamationOutlined } from "./ExclamationOutlined";
