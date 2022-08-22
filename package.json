@@ -15,6 +15,7 @@
     "lint": "lerna run lint"
   },
   "devDependencies": {
+    "husky": "^8.0.1",
     "lerna": "^3.4.0"
   },
   "license": "MIT"
